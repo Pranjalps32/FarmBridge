@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f4f7f6;
+  color: #333;
+}
+* { box-sizing: border-box; }
+button:active { transform: scale(0.98); }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #2d6a4f; border-radius: 10px; }
