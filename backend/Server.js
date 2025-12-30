@@ -9,7 +9,7 @@ app.use(express.json({ limit: '50mb' }));
 app.use(cors());
 
 // 🔗 DIRECT CLOUD CONNECTION (No dotenv needed for college level)
-const cloudDB = 'mongodb+srv://pardeships32_db_user:Pass@farmbridgecluster.so2demo.mongodb.net/FarmBridge?retryWrites=true&w=majority';
+const cloudDB = 'mongodb+srv://pardeships32_db_user:Farm12345678@farmbridgecluster.so2demo.mongodb.net/FarmBridge?retryWrites=true&w=majority';
 
 mongoose.connect(cloudDB)
   .then(() => console.log("✅ SUCCESS: Cloud Database Connected"))
