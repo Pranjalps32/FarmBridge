@@ -4,7 +4,7 @@ import { getStyles } from './Styles';
 import CustomerDashboard from './views/CustomerDashboard';
 import FarmerDashboard from './views/FarmerDashboard';
 
-const API = "https://farmbridge-6hgz.onrender.com";
+const API = "https://farmbridge-6hgz.onrender.com/api";
 
 function App() {
   const [user, setUser] = useState(null); 
